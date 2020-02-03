@@ -1,0 +1,61 @@
+
+/* Change Brand name font */
+
+.navbar-brand{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Change Navigation color */
+
+.navbar #navbarSupportedContent .custom-nav .nav-item a{
+	color: #fff;
+}
+
+.navbar #navbarSupportedContent .custom-nav .nav-item a:hover{
+	color: #f0aab1;
+}
+
+
+/* make header image responsive */
+
+.back-image{
+
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+	border-radius: 0px;
+	margin-top:0px;
+}
+
+
+/* header image sub title */
+
+ .font-italic {
+	font-size: 22px;
+}
+
+/* margin to welcome osms */
+
+
+
+
+.mainHeading{
+
+	margin-top: 50px;
+
+}
+
+/* show the middle of mobile welcome to osms */
+@media only screen and (max-width: 600px){
+.myclass{
+
+	margin-top: 350px;
+	text-align: center;
+}
+}
+
+
